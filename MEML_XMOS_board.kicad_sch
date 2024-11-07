@@ -3036,6 +3036,152 @@
 				)
 			)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -5953,6 +6099,12 @@
 		(uuid "21c47b8a-4f81-483f-846a-58a2223ffc5b")
 	)
 	(junction
+		(at 95.25 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22874b74-31d9-4cfb-89f4-6598a95e0d67")
+	)
+	(junction
 		(at 95.377 203.835)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6049,6 +6201,12 @@
 		(uuid "7d2292d4-cbfa-4600-b0e1-ce9c228d9bc9")
 	)
 	(junction
+		(at 68.58 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82a32328-b64c-42ed-998f-b568425a4298")
+	)
+	(junction
 		(at 66.04 203.835)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6085,6 +6243,18 @@
 		(uuid "c6526a06-b9b3-4c8c-8864-802f64f36023")
 	)
 	(junction
+		(at 86.36 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e69ba0ad-990a-4dd7-b099-422ac54d0ec7")
+	)
+	(junction
+		(at 134.62 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5ebd32d-1cc0-498b-9fa0-6fa609d9590c")
+	)
+	(junction
 		(at 74.422 216.916)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6095,8 +6265,28 @@
 		(uuid "0d0994e4-705d-45d6-ad4d-09a8d685cb74")
 	)
 	(no_connect
+		(at 213.36 214.63)
+		(uuid "18231edb-4c63-41f5-93a6-03800266cfc6")
+	)
+	(no_connect
+		(at 213.36 217.17)
+		(uuid "337da8de-26fb-47a1-8259-93358a8b2877")
+	)
+	(no_connect
+		(at 187.96 255.27)
+		(uuid "3c3dfb3c-c009-4d07-a067-c9ea7be892c8")
+	)
+	(no_connect
+		(at 185.42 186.69)
+		(uuid "3f17c70c-ce42-4660-b33c-45bc87b734fc")
+	)
+	(no_connect
 		(at 165.1 138.43)
 		(uuid "7692f126-9c7e-4252-8202-420b23f53995")
+	)
+	(no_connect
+		(at 172.72 229.87)
+		(uuid "7ce38314-adf9-4ff1-8514-641c0e06f92e")
 	)
 	(no_connect
 		(at 165.1 140.97)
@@ -6105,6 +6295,10 @@
 	(no_connect
 		(at 165.1 133.35)
 		(uuid "c0afe614-3f95-4527-a555-76dfabf28689")
+	)
+	(no_connect
+		(at 213.36 224.79)
+		(uuid "cd6bcd04-e73b-49b9-8976-b0c80d82ce8b")
 	)
 	(wire
 		(pts
@@ -6115,6 +6309,16 @@
 			(type default)
 		)
 		(uuid "001fe363-a4d6-4837-8aa6-3b896aa74f3c")
+	)
+	(wire
+		(pts
+			(xy 86.36 251.46) (xy 86.36 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00751756-8fef-4109-b57a-f3353a913d90")
 	)
 	(wire
 		(pts
@@ -6155,6 +6359,16 @@
 			(type default)
 		)
 		(uuid "0815be73-03f7-4256-9f58-b41a9582ed48")
+	)
+	(wire
+		(pts
+			(xy 68.58 251.46) (xy 68.58 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0833f14d-f070-4e98-afea-223a70836899")
 	)
 	(wire
 		(pts
@@ -6298,6 +6512,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 251.46) (xy 95.25 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecc4c34-d9f4-48ff-b295-4dcb1c3ba483")
+	)
+	(wire
+		(pts
 			(xy 220.98 87.63) (xy 223.52 87.63)
 		)
 		(stroke
@@ -6325,6 +6549,16 @@
 			(type default)
 		)
 		(uuid "231e392d-857b-48d4-b6e4-1c28cae4e0c9")
+	)
+	(wire
+		(pts
+			(xy 83.82 251.46) (xy 86.36 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2570beae-9ff9-4bb9-9f16-72a16b2071e1")
 	)
 	(wire
 		(pts
@@ -6678,6 +6912,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 251.46) (xy 76.2 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3dc2ad-bf37-4fc3-a9f1-703b6d02416a")
+	)
+	(wire
+		(pts
 			(xy 198.12 172.72) (xy 207.01 172.72)
 		)
 		(stroke
@@ -6698,7 +6942,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 224.79) (xy 172.72 224.79)
+			(xy 132.08 224.79) (xy 134.62 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6978,6 +7222,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 247.65) (xy 68.58 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69bc5d2e-d28d-4a53-bb4c-494de0316e3e")
+	)
+	(wire
+		(pts
 			(xy 236.22 256.54) (xy 236.22 260.35)
 		)
 		(stroke
@@ -7155,6 +7409,16 @@
 			(type default)
 		)
 		(uuid "8023fd80-278c-47fc-abd7-00225acdb982")
+	)
+	(wire
+		(pts
+			(xy 86.36 251.46) (xy 95.25 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834bb1d6-62eb-42d8-98c3-3a3888943211")
 	)
 	(wire
 		(pts
@@ -7345,6 +7609,16 @@
 			(type default)
 		)
 		(uuid "95244100-7acd-4210-9476-ce19bfdcacd1")
+	)
+	(wire
+		(pts
+			(xy 134.62 224.79) (xy 172.72 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95fc2d36-a1a5-4b7e-8967-10970b60094f")
 	)
 	(wire
 		(pts
@@ -7835,6 +8109,16 @@
 			(type default)
 		)
 		(uuid "d0b9f354-febb-4812-ae69-fe02a83b9c00")
+	)
+	(wire
+		(pts
+			(xy 95.25 247.65) (xy 95.25 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ebc7a1-ed39-45a7-93c0-e5907af037cc")
 	)
 	(wire
 		(pts
@@ -10233,6 +10517,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 68.58 247.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25163455-b69f-4cbb-af26-43ae604a5287")
+		(property "Reference" "#PWR047"
+			(at 68.58 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 68.58 243.5169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13074925-0acc-4112-b1c0-5ef3ed90c475")
+		)
+		(instances
+			(project "MEML_XMOS_board"
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3V3_3")
 		(lib_id "power:+3V3")
 		(at 220.98 97.79 270)
@@ -10916,6 +11266,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 80.01 251.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43f95906-6d38-483d-bea5-156dbffc3c1a")
+		(property "Reference" "FB1"
+			(at 80.0608 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470R 0.5A"
+			(at 80.0608 246.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 249.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 80.01 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40f0c028-cd4b-4602-9330-fadb06d00131")
+		)
+		(pin "1"
+			(uuid "dcce9021-3fdc-4ac9-9a95-27f9b59cdaf0")
+		)
+		(instances
+			(project ""
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45315186-2924-4222-87be-a28a4a15f462")
+		(property "Reference" "C23"
+			(at 137.541 227.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 137.541 229.8121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 135.5852 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a246f3ba-ba2f-45aa-a3c8-3432dbdfaaeb")
+		)
+		(pin "2"
+			(uuid "098f8cdb-9e30-460c-be32-220ec8627259")
+		)
+		(instances
+			(project "MEML_XMOS_board"
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 241.3 255.27 180)
@@ -11072,7 +11560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AGND"
 			(at 196.85 279.7231 0)
 			(effects
 				(font
@@ -11502,6 +11990,72 @@
 			(project "MEML_XMOS_board"
 				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58b57e74-930c-4e18-ba37-983d31c5dca9")
+		(property "Reference" "#PWR050"
+			(at 86.36 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 269.5631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf52ae82-8206-404d-8228-832f7aebca0f")
+		)
+		(instances
+			(project "MEML_XMOS_board"
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12114,7 +12668,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 162.56 224.79 90)
+		(at 132.08 224.79 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12123,7 +12677,7 @@
 		(dnp no)
 		(uuid "67502362-4d6f-4626-af2d-81fd210151b8")
 		(property "Reference" "#PWR026"
-			(at 166.37 224.79 0)
+			(at 135.89 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +12686,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 158.4269 224.79 0)
+			(at 127.9469 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12140,7 +12694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 224.79 0)
+			(at 132.08 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12149,7 +12703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 224.79 0)
+			(at 132.08 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12158,7 +12712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 224.79 0)
+			(at 132.08 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,6 +13418,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 86.36 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fc79f83-de28-4fe3-a782-fbc931de002a")
+		(property "Reference" "C21"
+			(at 89.281 260.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 89.281 262.8321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 87.3252 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22473b86-b41e-493e-b9e5-e275691bf290")
+		)
+		(pin "2"
+			(uuid "742694d9-0ecb-4697-bf86-ad7e20793dab")
+		)
+		(instances
+			(project "MEML_XMOS_board"
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 223.52 182.88 0)
 		(unit 1)
@@ -13485,6 +14109,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 134.62 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb5e9c5-6e0e-471e-98fe-8e965e2221f3")
+		(property "Reference" "#PWR052"
+			(at 134.62 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 236.5431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7ba88ba-004b-4c40-9bd2-48666b3892f6")
+		)
+		(instances
+			(project "MEML_XMOS_board"
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 303.53 175.26 0)
 		(unit 1)
@@ -13549,6 +14239,142 @@
 			(project ""
 				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "907564b1-9360-4205-887a-dc9e3c37e669")
+		(property "Reference" "#PWR049"
+			(at 68.58 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 269.5631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c14204fe-248a-41bc-9cfc-7c34aaf6d5e4")
+		)
+		(instances
+			(project "MEML_XMOS_board"
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9101f48d-a741-4640-82a7-b11f190b2796")
+		(property "Reference" "C22"
+			(at 98.171 260.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 98.171 262.8321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 96.2152 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38078e77-5374-434e-a3a8-2d1a28d3b2ef")
+		)
+		(pin "2"
+			(uuid "acf92779-66b6-4647-a58f-65ceb95f4054")
+		)
+		(instances
+			(project "MEML_XMOS_board"
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -14339,6 +15165,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 95.25 265.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc8e87e3-0c47-4b1b-80f6-fdf86449b607")
+		(property "Reference" "#PWR051"
+			(at 95.25 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 269.5631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b465385-413b-45b7-94fe-1dec285512dd")
+		)
+		(instances
+			(project "MEML_XMOS_board"
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 95.377 208.407 0)
 		(mirror y)
@@ -15026,6 +15918,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 68.58 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e38bbd5d-88c6-421d-b81e-5e71a97e5d1d")
+		(property "Reference" "C20"
+			(at 71.501 260.4079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 71.501 262.8321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 69.5452 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24c99ac6-bd07-46b2-ad2a-2ecff2d02b50")
+		)
+		(pin "2"
+			(uuid "e4964d69-7d19-46ac-a80b-578c939cf9cd")
+		)
+		(instances
+			(project "MEML_XMOS_board"
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 353.314 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15448,6 +16410,72 @@
 			(project "MEML_XMOS_board"
 				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 95.25 247.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2140688-d94c-4261-8f7f-5300816feca3")
+		(property "Reference" "#PWR048"
+			(at 95.25 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3A"
+			(at 95.25 243.5169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dbd1253-9809-4c57-b805-b995f012bc1b")
+		)
+		(instances
+			(project "MEML_XMOS_board"
+				(path "/9f8c9c17-423b-43a0-91a8-9d96e7f6bd99"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
