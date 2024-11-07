@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMG1024UV-7
+D Diodes Inc DMG1024UV-7 Dual N-channel MOSFET Transistor, 1.38 A, 20 V, 6-Pin SOT-563
+K
+F https://www.diodes.com//assets/Datasheets/ds31974.pdf
+$ENDCMP
+#
+#End Doc Library
